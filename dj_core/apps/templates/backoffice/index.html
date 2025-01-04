@@ -1,0 +1,24 @@
+{% extends 'layouts/base.html' %}
+{% load plotly_dash %}
+{% load static %}
+{% block title %} TEST APP {% endblock title %}
+{% block body %}{% endblock body %}
+
+{% block content %}
+
+    {% plotly_header %}
+    <div class="row">
+    <div class="col-md-10 ml-auto mr-auto">
+        <div>
+            {% plotly_direct name="test" %}
+        </div>
+    </div>
+    </div>
+    {% plotly_footer %}
+
+{% endblock content %}
+
+{% block extra_js %}
+  <!-- Optional JS -->
+  <script src="{% static 'assets/vendor/onscreen/dist/on-screen.umd.min.js' %}"></script>
+{% endblock extra_js %}

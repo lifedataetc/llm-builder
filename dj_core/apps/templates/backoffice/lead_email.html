@@ -1,0 +1,12 @@
+{% extends 'backoffice/email.html' %}
+
+{% block content %}
+    <b>{{ first_name }}</b>
+    <p>A pre-qualification letter was requested by {{ applicant }}</p>
+    <p>Contact Information:</p>
+    <ul>Name: {{ applicant }}</ul>
+    <ul>Phone: {{ phone }}</ul>
+    <ul>Email: {{ email }}</ul>
+    <p>Please see attached for your prequalification letter.</p>
+{% endblock content %}
+

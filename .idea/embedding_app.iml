@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/dj_core" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/dj_core/apps/static/assets/vendor/bootstrap-datepicker/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/dj_core/apps/static/assets/vendor/bootstrap-tagsinput/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/dj_core/apps/static/assets/vendor/bootstrap/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/dj_core/apps/static/assets/vendor/chart.js/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/dj_core/apps/static/assets/vendor/clipboard/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/dj_core/apps/static/assets/vendor/dropzone/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/dj_core/apps/static/assets/vendor/fullcalendar/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/dj_core/apps/static/assets/vendor/headroom.js/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/dj_core/apps/static/assets/vendor/jekyll/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/dj_core/apps/static/assets/vendor/jquery-scroll-lock/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/dj_core/apps/static/assets/vendor/jquery/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/dj_core/apps/static/assets/vendor/list.js/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/dj_core/apps/static/assets/vendor/onscreen/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/dj_core/apps/static/assets/vendor/quill/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/dj_core/apps/static/assets/vendor/select2/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/dj_core/apps/static/assets/vendor/sweetalert2/dist" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.13 (vec_space)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/dj_core/apps/templates" />
+      </list>
+    </option>
+  </component>
+</module>

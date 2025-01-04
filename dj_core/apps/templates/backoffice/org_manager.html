@@ -1,0 +1,18 @@
+{% extends 'layouts/base.html' %}
+{% block title %} TEST APP {% endblock title %}
+{% load plotly_dash %}
+{% load static %}
+{% block body %}{% endblock body %}
+
+{% block content %}
+
+    {% plotly_header %}
+          <div>{% plotly_direct name="org_manager" %}</div>
+          {% plotly_footer %}
+
+{% endblock content %}
+
+{% block extra_js %}
+  <!-- Optional JS -->
+  <script src="{% static 'assets/vendor/onscreen/dist/on-screen.umd.min.js' %}"></script>
+{% endblock extra_js %}
