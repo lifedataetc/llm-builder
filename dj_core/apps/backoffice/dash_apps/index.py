@@ -6,14 +6,14 @@ from django_plotly_dash import DjangoDash
 external_css = 'static/assets/css/argon.css'
 app = DjangoDash('index', external_stylesheets=[external_css])
 
-pre_qual_card = html.Div([dbc.Card(
+vec_db_card = html.Div([dbc.Card(
     [
         dbc.CardBody(
             [
-                html.H4("Manage Embeddings", className="card-title text-uppercase text-bold text-center mb-0"),
+                html.H4("Manage Vector Databases", className="card-title text-uppercase text-bold text-center mb-0"),
                 html.P("Create vector database project", className="card-text text-center"),
-                html.Div(dbc.Button(html.Span(['Go ', html.Span(className='ni ni-single-copy-04')]),
-                                    id={'type':'rbtn', 'index':'vec_db_start'}), className='text-center')
+                html.Div(dbc.Button(html.Span(['Go ', html.Span(className='ni ni-books')]),
+                                    id={'type':'rbtn', 'index':'vec_db'}), className='text-center')
             ])], style={"width": "18rem"},)], className='col-xl-3 col-md-6 col-sm-12')
 user_manager_card = html.Div([dbc.Card(
     [
@@ -59,7 +59,7 @@ def layout_maker(init, **kwargs):
     cards = []
     user_header = f'Welcome, {user.first_name} (User Type: {user.user_type})'
     if user.user_type == 1:
-        cards = [pre_qual_card, user_manager_card, org_manager_card, settings_card]
+        cards = [vec_db_card, user_manager_card, org_manager_card, settings_card]
     return cards, user_header
 
 @app.callback(
